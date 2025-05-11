@@ -1,0 +1,502 @@
+[
+    {
+      "question": "Which law of thermodynamics introduces the concept of entropy?",
+      "options": [
+        "Zeroth Law",
+        "First Law",
+        "Second Law",
+        "Third Law"
+      ],
+      "correctAnswerIndex": 2
+    },
+    {
+      "question": "The first law of thermodynamics is a statement of:",
+      "options": [
+        "Conservation of entropy",
+        "Conservation of energy",
+        "Increase of entropy",
+        "Decrease of temperature"
+      ],
+      "correctAnswerIndex": 1
+    },
+    {
+      "question": "Which of the following is an example of an irreversible process?",
+      "options": [
+        "Melting of ice at 0\u00b0C",
+        "Expansion of a gas in a vacuum",
+        "Boiling of water at 100\u00b0C",
+        "Compression of a gas slowly"
+      ],
+      "correctAnswerIndex": 1
+    },
+    {
+      "question": "What does the zeroth law of thermodynamics define?",
+      "options": [
+        "Heat capacity",
+        "Entropy",
+        "Internal energy",
+        "Temperature equilibrium"
+      ],
+      "correctAnswerIndex": 3
+    },
+    {
+      "question": "In a cyclic process, the net change in internal energy is:",
+      "options": [
+        "Positive",
+        "Negative",
+        "Zero",
+        "Infinite"
+      ],
+      "correctAnswerIndex": 2
+    },
+    {
+      "question": "Which device operates on the reverse of the Carnot cycle?",
+      "options": [
+        "Steam engine",
+        "Refrigerator",
+        "Gas turbine",
+        "Diesel engine"
+      ],
+      "correctAnswerIndex": 1
+    },
+    {
+      "question": "Entropy of the universe tends to:",
+      "options": [
+        "Remain constant",
+        "Increase",
+        "Decrease",
+        "Be zero"
+      ],
+      "correctAnswerIndex": 1
+    },
+    {
+      "question": "Which of the following is a state function?",
+      "options": [
+        "Work",
+        "Heat",
+        "Entropy",
+        "Path"
+      ],
+      "correctAnswerIndex": 2
+    },
+    {
+      "question": "The efficiency of a Carnot engine depends on:",
+      "options": [
+        "The working substance",
+        "The amount of work done",
+        "Temperatures of the hot and cold reservoirs",
+        "Speed of the engine"
+      ],
+      "correctAnswerIndex": 2
+    },
+    {
+      "question": "When a system absorbs heat and does work, the change in internal energy is:",
+      "options": [
+        "Equal to the work done",
+        "Equal to the heat added",
+        "Heat added minus work done",
+        "Work done minus heat added"
+      ],
+      "correctAnswerIndex": 2
+    },
+    {
+      "question": "What is the SI unit of dynamic viscosity?",
+      "options": [
+        "N\u00b7s/m\u00b2",
+        "kg/m\u00b3",
+        "Pa\u00b7s",
+        "m\u00b2/s"
+      ],
+      "correctAnswerIndex": 2
+    },
+    {
+      "question": "Bernoulli\u2019s equation is based on the conservation of:",
+      "options": [
+        "Mass",
+        "Energy",
+        "Momentum",
+        "Volume"
+      ],
+      "correctAnswerIndex": 1
+    },
+    {
+      "question": "The Reynolds number is used to predict:",
+      "options": [
+        "Pressure loss",
+        "Fluid density",
+        "Laminar or turbulent flow",
+        "Surface tension"
+      ],
+      "correctAnswerIndex": 2
+    },
+    {
+      "question": "In a venturi meter, the fluid velocity at the throat:",
+      "options": [
+        "Increases",
+        "Decreases",
+        "Remains constant",
+        "Becomes zero"
+      ],
+      "correctAnswerIndex": 0
+    },
+    {
+      "question": "Which instrument is used to measure pressure in fluids?",
+      "options": [
+        "Thermometer",
+        "Manometer",
+        "Tachometer",
+        "Barometer"
+      ],
+      "correctAnswerIndex": 1
+    },
+    {
+      "question": "What is the primary cause of fluid viscosity?",
+      "options": [
+        "Temperature differences",
+        "Molecular cohesion and interaction",
+        "External pressure",
+        "Surface tension"
+      ],
+      "correctAnswerIndex": 1
+    },
+    {
+      "question": "The continuity equation is derived from the principle of:",
+      "options": [
+        "Conservation of energy",
+        "Conservation of momentum",
+        "Conservation of mass",
+        "Conservation of viscosity"
+      ],
+      "correctAnswerIndex": 2
+    },
+    {
+      "question": "For an incompressible and non-viscous fluid in steady flow, the total mechanical energy is:",
+      "options": [
+        "Increasing",
+        "Decreasing",
+        "Constant",
+        "Zero"
+      ],
+      "correctAnswerIndex": 2
+    },
+    {
+      "question": "Surface tension acts to:",
+      "options": [
+        "Minimize the volume of the liquid",
+        "Maximize the volume of the liquid",
+        "Minimize the surface area of the liquid",
+        "Increase density of the liquid"
+      ],
+      "correctAnswerIndex": 2
+    },
+    {
+      "question": "The head loss due to friction in a pipe is directly proportional to:",
+      "options": [
+        "Velocity of the fluid",
+        "Square of the velocity",
+        "Inverse of velocity",
+        "Fluid pressure"
+      ],
+      "correctAnswerIndex": 1
+    },
+    {
+      "question": "Mass transfer occurs due to:",
+      "options": [
+        "Difference in temperature",
+        "Difference in pressure",
+        "Difference in concentration",
+        "Presence of catalyst"
+      ],
+      "correctAnswerIndex": 2
+    },
+    {
+      "question": "Fick\u2019s first law describes:",
+      "options": [
+        "Heat conduction",
+        "Molecular diffusion",
+        "Convective heat transfer",
+        "Chemical reaction rate"
+      ],
+      "correctAnswerIndex": 1
+    },
+    {
+      "question": "The units of mass diffusivity are:",
+      "options": [
+        "m/s",
+        "kg/m\u00b2\u00b7s",
+        "m\u00b2/s",
+        "kg/m\u00b3"
+      ],
+      "correctAnswerIndex": 2
+    },
+    {
+      "question": "The term 'mass transfer coefficient' is used to quantify:",
+      "options": [
+        "Momentum transfer",
+        "Energy transfer",
+        "Rate of mass transfer per unit driving force",
+        "Fluid velocity"
+      ],
+      "correctAnswerIndex": 2
+    },
+    {
+      "question": "In gas absorption, the primary resistance to mass transfer is often in the:",
+      "options": [
+        "Liquid phase",
+        "Gas phase",
+        "Interface",
+        "Solid phase"
+      ],
+      "correctAnswerIndex": 0
+    },
+    {
+      "question": "In distillation, mass transfer occurs primarily due to:",
+      "options": [
+        "Heat conduction",
+        "Concentration gradient",
+        "Phase equilibrium differences",
+        "Pressure drop"
+      ],
+      "correctAnswerIndex": 2
+    },
+    {
+      "question": "What dimensionless number represents the ratio of momentum diffusivity to mass diffusivity?",
+      "options": [
+        "Reynolds number",
+        "Schmidt number",
+        "Sherwood number",
+        "Prandtl number"
+      ],
+      "correctAnswerIndex": 1
+    },
+    {
+      "question": "The Sherwood number is associated with:",
+      "options": [
+        "Thermal diffusion",
+        "Velocity profiles",
+        "Convective mass transfer",
+        "Gravitational settling"
+      ],
+      "correctAnswerIndex": 2
+    },
+    {
+      "question": "In drying, the mass transfer occurs from:",
+      "options": [
+        "Solid to gas",
+        "Gas to solid",
+        "Liquid to solid",
+        "Liquid to gas"
+      ],
+      "correctAnswerIndex": 0
+    },
+    {
+      "question": "The main driving force for diffusion in a binary mixture is the:",
+      "options": [
+        "Temperature gradient",
+        "Velocity gradient",
+        "Concentration gradient",
+        "Pressure gradient"
+      ],
+      "correctAnswerIndex": 2
+    },
+    {
+      "question": "The driving force in distillation is:",
+      "options": [
+        "Temperature gradient",
+        "Density difference",
+        "Pressure difference",
+        "Difference in volatility"
+      ],
+      "correctAnswerIndex": 3
+    },
+    {
+      "question": "Which separation method is based on particle size?",
+      "options": [
+        "Filtration",
+        "Distillation",
+        "Absorption",
+        "Chromatography"
+      ],
+      "correctAnswerIndex": 0
+    },
+    {
+      "question": "In liquid-liquid extraction, separation is based on:",
+      "options": [
+        "Boiling point",
+        "Molecular weight",
+        "Solubility differences in two immiscible liquids",
+        "Particle size"
+      ],
+      "correctAnswerIndex": 2
+    },
+    {
+      "question": "In adsorption, the component is separated by binding to a:",
+      "options": [
+        "Mobile phase",
+        "Stationary solid surface",
+        "Solvent",
+        "Vapor"
+      ],
+      "correctAnswerIndex": 1
+    },
+    {
+      "question": "The separation in chromatography occurs due to:",
+      "options": [
+        "Density differences",
+        "Affinity towards stationary vs. mobile phases",
+        "Temperature gradient",
+        "Surface tension"
+      ],
+      "correctAnswerIndex": 1
+    },
+    {
+      "question": "What is the main principle behind centrifugation?",
+      "options": [
+        "Vapor pressure difference",
+        "Magnetic susceptibility",
+        "Gravity and density difference",
+        "Capillary action"
+      ],
+      "correctAnswerIndex": 2
+    },
+    {
+      "question": "The separation in membrane filtration is primarily due to:",
+      "options": [
+        "Capillary action",
+        "Pore size and pressure",
+        "Temperature difference",
+        "Adsorption capacity"
+      ],
+      "correctAnswerIndex": 1
+    },
+    {
+      "question": "Which method separates volatile components from non-volatile ones?",
+      "options": [
+        "Drying",
+        "Sedimentation",
+        "Evaporation",
+        "Crystallization"
+      ],
+      "correctAnswerIndex": 2
+    },
+    {
+      "question": "Crystallization is mainly used to:",
+      "options": [
+        "Remove gases",
+        "Separate solids based on solubility",
+        "Remove water from oils",
+        "Separate based on boiling point"
+      ],
+      "correctAnswerIndex": 1
+    },
+    {
+      "question": "Which separation technique is best for separating azeotropic mixtures?",
+      "options": [
+        "Simple distillation",
+        "Flash distillation",
+        "Azeotropic or extractive distillation",
+        "Drying"
+      ],
+      "correctAnswerIndex": 2
+    },
+    {
+      "question": "The law on which mass balance is based is:",
+      "options": [
+        "Newton's First Law",
+        "Law of Conservation of Mass",
+        "Law of Conservation of Energy",
+        "Dalton\u2019s Law"
+      ],
+      "correctAnswerIndex": 1
+    },
+    {
+      "question": "In a steady-state process, the accumulation term is:",
+      "options": [
+        "Equal to input",
+        "Equal to output",
+        "Zero",
+        "Maximum"
+      ],
+      "correctAnswerIndex": 2
+    },
+    {
+      "question": "The general mass balance equation is:",
+      "options": [
+        "Input + Generation = Output + Consumption",
+        "Input \u2013 Output = Accumulation",
+        "Input + Output = Accumulation",
+        "Input + Generation \u2013 Output \u2013 Consumption = Accumulation"
+      ],
+      "correctAnswerIndex": 3
+    },
+    {
+      "question": "In a batch process, the mass balance includes:",
+      "options": [
+        "Continuous flow terms",
+        "Steady-state assumptions",
+        "Time-dependent accumulation",
+        "Pressure gradients"
+      ],
+      "correctAnswerIndex": 2
+    },
+    {
+      "question": "For a system with no chemical reaction, the mass balance simplifies to:",
+      "options": [
+        "Input = Output",
+        "Input + Generation = Output + Consumption",
+        "Input \u2013 Output = Accumulation",
+        "Input + Output = Accumulation"
+      ],
+      "correctAnswerIndex": 2
+    },
+    {
+      "question": "What is the unit of mass flow rate?",
+      "options": [
+        "kg",
+        "kg/s",
+        "m/s",
+        "m\u00b3/s"
+      ],
+      "correctAnswerIndex": 1
+    },
+    {
+      "question": "In a drying process, the lost water is accounted as:",
+      "options": [
+        "Accumulation",
+        "Output stream",
+        "Generation term",
+        "Internal energy"
+      ],
+      "correctAnswerIndex": 1
+    },
+    {
+      "question": "In a continuous stirred-tank reactor (CSTR) at steady-state with a reaction, accumulation is:",
+      "options": [
+        "Equal to input",
+        "Constant",
+        "Zero",
+        "Equal to output"
+      ],
+      "correctAnswerIndex": 2
+    },
+    {
+      "question": "The mass fraction of a component is defined as:",
+      "options": [
+        "Mass of component / Total volume",
+        "Volume of component / Total mass",
+        "Mass of component / Total mass",
+        "Moles of component / Total mass"
+      ],
+      "correctAnswerIndex": 2
+    },
+    {
+      "question": "A recycle stream in a process increases:",
+      "options": [
+        "Raw material consumption",
+        "Product purity",
+        "Complexity and efficiency",
+        "Overall mass balance error"
+      ],
+      "correctAnswerIndex": 2
+    }
+  ]
