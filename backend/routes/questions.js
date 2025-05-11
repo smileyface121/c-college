@@ -1,4 +1,7 @@
+import express from 'express';
 import Question from '../models/Question.js';
+
+const router = express.Router(); 
 
 // Seeder route (add this at bottom of file)
 router.post('/seed', async (req, res) => {
@@ -17,3 +20,4 @@ router.post('/seed', async (req, res) => {
   await Question.insertMany(questions);
   res.json({ message: '50 questions seeded!' });
 });
+export default router;
