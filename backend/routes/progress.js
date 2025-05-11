@@ -1,5 +1,5 @@
 import express from 'express';
-import Progress from '../models/Progress.js';
+import Progress from '../models/progress.js';
 const router = express.Router();
 
 router.post('/', async (req, res) => {
