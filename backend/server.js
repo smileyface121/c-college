@@ -17,6 +17,11 @@ app.use('/api/auth', authRoutes);
 app.use('/api/questions', questionRoutes);
 app.use('/api/progress', progressRoutes);
 
+// ✅ Health check route — add here
+app.get('/api/health', (req, res) => {
+  res.send('Server is healthy ✅');
+});
+
 mongoose.connect(process.env.MONGO_URI, { useNewUrlParser: true, useUnifiedTopology: true })
   .then(() => app.listen(5000, () => console.log('Server running')))
   .catch(err => console.error(err));
