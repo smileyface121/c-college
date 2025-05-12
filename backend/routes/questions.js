@@ -1,30 +1,25 @@
 import express from 'express';
 import Question from '../models/question.js';
+import fs from 'fs';
+import path from 'path';
 
-const router = express.Router(); 
+const router = express.Router();
 
-// ✅ GET all questions
-router.get('/', async (req, res) => {
-  const questions = await Question.find().limit(50);
-  res.json(questions);
-});
+// ✅ POST /api/questions/seed-from-file
+router.post('/seed-from-file', async (req, res) => {
+  try {
+    const filePath = path.resolve('backend/seed_questions.json');
+    const data = fs.readFileSync(filePath, 'utf-8');
+    const questions = JSON.parse(data);
 
-// ✅ POST seed questions
-router.post('/seed', async (req, res) => {
-  await Question.deleteMany({});
+    await Question.deleteMany(); // Clear existing data
+    await Question.insertMany(questions); // Insert from JSON
 
-  const questions = [];
-
-  for (let i = 1; i <= 50; i++) {
-    questions.push({
-      question: `What does Law ${i} of Thermodynamics say?`,
-      options: ['Option A', 'Option B', 'Option C', 'Option D'],
-      correctAnswerIndex: i % 4
-    });
+    res.json({ message: `${questions.length} real questions seeded!` });
+  } catch (err) {
+    console.error(err);
+    res.status(500).json({ error: 'Failed to seed questions' });
   }
-
-  await Question.insertMany(questions);
-  res.json({ message: '50 questions seeded!' });
 });
 
 export default router;
