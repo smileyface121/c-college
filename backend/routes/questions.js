@@ -3,9 +3,15 @@ import Question from '../models/question.js';
 
 const router = express.Router(); 
 
-// Seeder route (add this at bottom of file)
+// ✅ GET all questions
+router.get('/', async (req, res) => {
+  const questions = await Question.find().limit(50);
+  res.json(questions);
+});
+
+// ✅ POST seed questions
 router.post('/seed', async (req, res) => {
-  await Question.deleteMany({}); // Clear existing
+  await Question.deleteMany({});
 
   const questions = [];
 
@@ -13,11 +19,12 @@ router.post('/seed', async (req, res) => {
     questions.push({
       question: `What does Law ${i} of Thermodynamics say?`,
       options: ['Option A', 'Option B', 'Option C', 'Option D'],
-      correctAnswerIndex: i % 4 // rotate correct answers
+      correctAnswerIndex: i % 4
     });
   }
 
   await Question.insertMany(questions);
   res.json({ message: '50 questions seeded!' });
 });
+
 export default router;
