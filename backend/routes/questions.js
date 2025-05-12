@@ -8,7 +8,7 @@ const router = express.Router();
 // ✅ POST /api/questions/seed-from-file
 router.post('/seed-from-file', async (req, res) => {
   try {
-    const filePath = path.resolve('backend/seed_questions.json');
+    const filePath = path.resolve('seed_questions.json');
     const data = fs.readFileSync(filePath, 'utf-8');
     const questions = JSON.parse(data);
 
